@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+  }
+  
+  .form {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cards {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+  }
+  
+  .unorderList{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .card {
+    list-style-type: none;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+
+  }
+  
+  .precioTotal{
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  .image{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .list{
+    text-align: center;
+    margin: 1rem;
+    width: 180px;
+    border-radius: 20px;
+    background-color: rgba(14, 30, 65, 0.774);
+    color: #ffffff;
+  }
+
+  .productButton{
+    background:linear-gradient(to bottom, #010303 5%, #000000 100%);
+    border:1px solid transparent;
+    border-radius: 1px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:bold;
+    padding:7px 5px;
+    text-decoration:none;
+  }
+
+  .DeleateproductButton{
+    margin-left: 80%;
+    margin-top: 10px;
+    background-color:rgba(216, 82, 82, 0.774);
+    border-radius:5px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:10px;
+    font-weight:bold;
+    padding:7px 5px;
+    text-decoration:none;
+  }
+
+.addMoreProduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.itemQ{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.totalPrice{
+  color: #ffffff;
+}
